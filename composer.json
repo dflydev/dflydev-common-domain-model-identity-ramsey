@@ -1,0 +1,36 @@
+{
+    "name": "dflydev/common-domain-model-identity-ramsey",
+    "description": "Implementation of identity for domain models using ramsey/uuid.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Beau Simensen",
+            "email": "beau@dflydev.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "dflydev/common-domain-model-identity": "^0.0@dev",
+        "ramsey/uuid": "^3.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dflydev\\Common\\Domain\\Model\\Identity\\Ramsey\\": "src/Dflydev/Common/Domain/Model/Identity/Ramsey"
+        }
+    },
+    "require-dev": {
+        "codeclimate/php-test-reporter": "~0.1@dev",
+        "phpunit/phpunit": "~4.5",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dflydev\\Common\\Domain\\Model\\Identity\\Ramsey\\": "tests/Dflydev/Common/Domain/Model/Identity/Ramsey"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+    }
+}
